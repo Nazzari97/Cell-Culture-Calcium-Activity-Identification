@@ -129,44 +129,6 @@ disp('for loop 4 done');
 %summery of above figure block to return same ans without creating figures
 NBtrc=mean(NBtrc);
 Autrc=mean(Autrc);
-%remove block comment below if you want these figures returned --- just comment 
-%out lines above with NBtrc and Autrc
-
-%{
-figure  %plot event triggered average traces of neighbors
-plot(NBtrc')
-hold on
-NBtrc=mean(NBtrc);
-plot(NBtrc'*10,'r','LineWidth',3)
-title('event triggered average trace of neighbors');
-
-
-figure   %plot event triggered average traces of that cell
-plot(Autrc')
-hold on
-Autrc=mean(Autrc);
-plot(Autrc'*10,'k','LineWidth',3)
-title('event triggered average trace of that cell');
-
-
-figure  % plot together 
-plot(NBtrc','r','LineWidth',3)
-hold on 
-plot(Autrc','k','LineWidth',3)
-%}
-
-
-%figure
-%plot(Aucor)
-%hold on
-%Aucor=mean(Aucor');
-%plot(Aucor','k','LineWidth',3)
-%disp('all figures done');
-
-%%
-%kris stuff 
-
-
 
 %%
 %value returns
