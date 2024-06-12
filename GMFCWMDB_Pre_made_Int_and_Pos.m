@@ -1,17 +1,13 @@
 clear; clc;
 close all %closes all open figures
 
-%folder = 'E:\Kristen\Live Cell Cornea Steph\BalbC Mice\9-12 week mouse\45 minutes\BalbC Dec 7\Eye3Wings\';
-%folder = 'E:\Kristen\Live Cell Cornea Steph\NO Mice\9-12 Week Mouse\45 minutes\NormCorre and Nick Analysis\Kristen Analysis\May 12\';
-folder = 'F:\Nicholas\Ex Vivo Mouse Eyes\5-15-24 Retired Breaders NoN\Data and Analysis\';
-%folder = 'H:\VTR Lab\Ex Vivo\NON eye 1\';
-posfilename = 'Eye 2\CombinedCentroids';
-intfilename = 'Eye 2\CombinedMM';
+folder = '';
+posfilename = '';
+intfilename = '';
 
-%posfilename = 'Mar14Eye1CentralZ1 Wing Centroids';
-%intfilename = 'Mar14Eye1CentralZ1 WingMM';
 
-name = 'Eye 2\Eye 2 Combined Analysis';
+
+name = 'name';
 
 
 name = [folder name];
@@ -30,7 +26,7 @@ skp = 4;
 NxtCeldis=85; %85 value works best for cell culture - miight need to altered for wing cells and basal cells
 %NxtCeldis=85*2; %pixel; value for wings cells - maybe doubled what the
 %default is from cell culture 
-%NxtCeldis=85*.5; pixel value for basal cells - mayubed halfed or
+%NxtCeldis=85*.5; pixel value for basal cells - maybe halfed or
 %quartered what is default for cell culture
 
 %%
