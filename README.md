@@ -8,15 +8,18 @@ Ex Vivo tissue should be analyzed with GMFCWMDB_Pre_made_Int_and_Pos.m using pri
 	our lab generated both data sets using the ROI tools in ImageJ and the Measure and Multimeasure tools within the ROI manager
 
 When using get_marked_frames_modified_combined_with_main_driver_Bounds.m
-		Using a photo editor software to convert image set/video file into a .avi
-	 	Name the Folder var with the files folder
-	  	Name the name var with the files name with the .avi removed 
-	   	Run code
+
+			Using a photo editor software to convert image set/video file into a .avi
+		 	Name the Folder var with the files folder
+		  	Name the name var with the files name with the .avi removed 
+		   	Run code
 
 When using the GMFCWMDB_Pre_made_Int_and_Pos.m
+
 	User is importing excel files generated from data directly instead of allowing the script to identify cells and pull intensity data itself
  	This is done during instances of poor identification of cells from the Code such as with tissue and ex vivo analysis
   	The user has to create the intensity file and centroid file themselves, 
+   
 	   		This lab has used ImageJ/FUJI for this processes taking advantage of the Region of Intrest (ROI) tool 
 	     		and the measure and multimeasure tools within the ROI manager
 	       		Position data was created with centroid data
@@ -25,6 +28,7 @@ When using the GMFCWMDB_Pre_made_Int_and_Pos.m
 	       		This creates data sets that can be generated and copied into microsoft excel
 		 		make sure to remove the cell count variables in the first collum in the centroid data
 	    			and make sure to remove the time point data from the intensity data generated in multimeasure
+	
        Name the Folder var with the files folder.
        Name the position data var using a string witht the file type extension removed - posfilename.
        Name the intensity data var using a string witht the file type extension removed - intfilename.
