@@ -72,7 +72,8 @@ xlswrite(intfilename,intmat,cellRange);
 disp('done');
 
 
-%Calling PKcorr function
+
+%%Calling PKcorr function
 disp('Begin to process PKcorr');
 excel_prompt = 'Enter the filename of the postion data excel sheet: ';
 %posfilename = 1(excel_prompt,'s');
@@ -81,6 +82,6 @@ posfilename = [posfilename '.xlsx'];
 
 [position,txt,raw] = xlsread(posfilename) ;
 [intensity,txt,raw] = xlsread(intfilename) ;
-Pkcorr(intensity,position,4,name)
+Pkcorr(intensity,position,.4,4,85,name)
 
 Hierarchical_Clustering(name, intmat)
