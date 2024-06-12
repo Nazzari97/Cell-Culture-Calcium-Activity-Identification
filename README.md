@@ -2,6 +2,8 @@
 
 Usage Requies 2016a MatLab for HeatMap generation - rest of code can be updated to work with newer versions of MatLab
 
+Place all files into a single folder and either start MatLab from there or enter functions into MatLab path
+
 Depending on usage of calcium activity and wounding, cell culture models can be analyzed using the get_marked_frames_modified_combined_with_main_driver_Bounds.m scripts
 
 Ex Vivo tissue should be analyzed with GMFCWMDB_Pre_made_Int_and_Pos.m using prior created excel files of the centroid data and intensity over time
