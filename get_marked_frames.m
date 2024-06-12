@@ -1,5 +1,5 @@
 clear; clc;
-vid = 'ARL Near and Far Analysis\Human Primary\Human Primary AVI\Run 1\Human Primary Control Near Late.avi';
+vid = '';
 vidObjR = VideoReader(vid);
 vidObjW = VideoWriter([vid '_write.avi']);
 vidObjW.FrameRate = 1;
