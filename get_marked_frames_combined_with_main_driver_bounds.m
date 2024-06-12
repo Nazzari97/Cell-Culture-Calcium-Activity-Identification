@@ -1,11 +1,8 @@
 clear; clc;
 close all %closes all open figures
-%name = 'ARL Near and Far Analysis\Human Primary\Human Primary AVI\Run 3\Human Primary 50nM Far Late';
-%name = 'W2croppedtotal';
-%folder = 'ARL 2023\HDia ARL 2023\Hum Dia P7 AVI Run 6\';
-%folder = 'Eye Analysis 2023\NoN young mice\'
+
 folder = '';
-name ='3-5-24 TRPV4 15um';
+name ='';
 
 name = [folder name];
 vid = [name '.avi'];
@@ -16,7 +13,6 @@ open(vidObjW);
 
 %%Percent values
 percent = 0.4;
-%percent = 1.4; %runs with inhibitor
 
 %NBPK skp value - base value is 4 - 
 %skp is the number of frames to look at the cross correlations (i.e. how many frames to plot after an "event"
