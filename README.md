@@ -123,7 +123,7 @@ What is BasalandWingNBPKAnalysis.m
      	while basal cells are smaller then have a smaller NxtCeldis then default values described above
 
       	var that have to be inputted are:	
-      		folder = '';
+       	folder = '';
 		wingposfilename = '';
  		wingintfilename = '';
   		basalposfilename = '';
@@ -138,7 +138,7 @@ What is BasalandWingNBPKAnalysis.m
   		totbasalPK	number of basal cell signaling
    		basalNBPK	number of basal cell signal propagation 
 
-       		WtBNBPK		Wing to Basal NBPK
+       	WtBNBPK		Wing to Basal NBPK
 	 	BtWNBPK		Basal to Wing NBPK
    		TotalNBPK	Total cross layer/data set NBPK
     		
