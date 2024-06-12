@@ -3,14 +3,19 @@
 Usage Requies 2016a MatLab for HeatMap generation - rest of code can be updated to work with newer versions of MatLab
 
 Depending on usage of calcium activity and wounding, cell culture models can be analyzed using the get_marked_frames_modified_combined_with_main_driver_Bounds.m scripts
+
 Ex Vivo tissue should be analyzed with GMFCWMDB_Pre_made_Int_and_Pos.m using prior created excel files of the centroid data and intensity over time
 	our lab generated both data sets using the ROI tools in ImageJ and the Measure and Multimeasure tools within the ROI manager
 
 When using get_marked_frames_modified_combined_with_main_driver_Bounds.m
-	Using a photo editor software to convert image set/video file into a .avi
- 	Name the Folder var with the files folder
-  	Name the name var with the files name with the .avi removed 
-   	Run code
+	
+ Using a photo editor software to convert image set/video file into a .avi
+ 	
+  Name the Folder var with the files folder
+  	
+   Name the name var with the files name with the .avi removed 
+   	
+    Run code
 
 When using the GMFCWMDB_Pre_made_Int_and_Pos.m
 	User is importing excel files generated from data directly instead of allowing the script to identify cells and pull intensity data itself
