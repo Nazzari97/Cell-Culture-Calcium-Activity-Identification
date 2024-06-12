@@ -7,7 +7,7 @@ clear;clc; close all
 % warning('off',id);
  
 %% Creating video read and write objects
-name = 'ARL Near and Far Analysis\Human Primary\Human Primary AVI\Run 1\Human Primary Control Near Late';
+name = '';
 vid = [name '.avi'];
 
 vidObjR = VideoReader(vid);
