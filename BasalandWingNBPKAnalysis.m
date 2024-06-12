@@ -1,18 +1,13 @@
 clear; clc;
 close all %closes all open figures
 
-%folder = 'E:\Kristen\Live Cell Cornea Steph\BalbC Mice\BalbC 27 week\Data\'; %folder of the files
-folder = 'F:\Nicholas\Ex Vivo Mouse Eyes\5-15-24 Retired Breaders NoN\Data and Analysis\Eye 2\';
+folder = ''; %folder of the files
 
-wingposfilename = 'WingCentroids';
-wingintfilename = 'WingMM';
-basalposfilename = 'BasalCentroids';
-basalintfilename = 'BasalMM';
 
-%wingposfilename = 'Mar 28 Eye 3 wing\Mar28CentralEye3WingCentroids'; %name of the wing centroid file 
-%wingintfilename = 'Mar 28 Eye 3 wing\Mar28CentralEye3WingMM'; %name of the wing intensity (MM = multi measure) file
-%basalposfilename = 'Mar 28 Eye 3 Basal\Mar28CentralEye3BasalCentroid'; %name of the basal centroid file 
-%basalintfilename = 'Mar 28 Eye 3 Basal\Mar28CentralEye3BasalMM'; %name of the basal intensity (MM = multi measure) file
+wingposfilename = '';
+wingintfilename = '';
+basalposfilename = '';
+basalintfilename = '';
 
 %- amount of cells sould match cell count in centroids file. Centorid file
 %the excel sheet should be configured in x position in A, y position in B,
