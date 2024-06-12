@@ -54,7 +54,7 @@ Place all files into a single folder and either start MATLAB from there or enter
 Depending on usage of calcium activity and wounding, cell culture models can be analyzed using the get_marked_frames_modified_combined_with_main_driver_Bounds.m scripts
 
 Ex Vivo tissue should be analyzed with GMFCWMDB_Pre_made_Int_and_Pos.m using prior created excel files of the centroid data and intensity over time
-	our lab generated both data sets using the ROI tools in ImageJ and the Measure and Multimeasure tools within the ROI manager
+	Our lab generated both data sets using the ROI tools in ImageJ and the Measure and Multimeasure tools within the ROI manager
 
 
 When using get_marked_frames_modified_combined_with_main_driver_Bounds.m
@@ -82,7 +82,7 @@ When using the GMFCWMDB_Pre_made_Int_and_Pos.m
        Name the Folder var with the files folder.
        Name the position data var using a string with the file type extension removed - posfilename.
        Name the intensity data var using a string with the file type extension removed - intfilename.
-       the var 'name' is used for the creation of data sets via the code to create a basic for these file name.
+       The var 'name' is used for the creation of data sets via the code to create a basic for these file name.
        Run code.
 
 Explanation for some var that user might want to change
@@ -115,12 +115,12 @@ Values returned by Pkcorr
 
 What is BasalandWingNBPKAnalysis.m
 
-	this code is used to analyze the propagation of calcium signaling events between different layers of tissue epithelium/different videos taken from the same tissue at different z layers
- 	this code works in a similar manner to GMFCWMDB_Pre_made_Int_and_Pos and Pkcorr, it required premade centroid and intensity excel files
-  	it then uses that centroid data and intensity data to determine if cells had detected events and propagated events within their layers
-   	then it compared those two data sets with the centroid data between layers/files to determine if there was propagated events between the two different data sets
-    	this used altered NxtCeldis values because of the different sizes of cells used by this lab, Wing cells are larger and have a large NxtCeldis value, 
-     	while basal cells are smaller then have a smaller NxtCeldis then default values described above
+	This code is used to analyze the propagation of calcium signaling events between different layers of tissue epithelium/different videos taken from the same tissue at different z layers
+ 	This code works in a similar manner to GMFCWMDB_Pre_made_Int_and_Pos and Pkcorr, it required premade centroid and intensity excel files
+  	It then uses that centroid data and intensity data to determine if cells had detected events and propagated events within their layers
+   	Then it compared those two data sets with the centroid data between layers/files to determine if there was propagated events between the two different data sets
+    	This used altered NxtCeldis values because of the different sizes of cells used by this lab, Wing cells are larger and have a large NxtCeldis value, 
+     	While basal cells are smaller then have a smaller NxtCeldis then default values described above
 
       	var that have to be inputted are:	
        	folder = '';
